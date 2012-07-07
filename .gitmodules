@@ -1,0 +1,3 @@
+[submodule "vendor/ido-ubiquitous"]
+	path = vendor/ido-ubiquitous
+	url = git://github.com/DarwinAwardWinner/ido-ubiquitous.git
