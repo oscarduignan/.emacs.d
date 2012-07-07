@@ -1,0 +1,20 @@
+(setq on-windows (equal system-type 'windows-nt)
+      on-apple (equal system-type 'darwin)
+      on-linux (equal system-type 'gnu/linux))
+
+(setq emacs-dir (file-name-directory load-file-name)
+      custom-lisp (concat emacs-dir "custom/")
+      vendor-lisp (concat emacs-dir "vendor/"))
+
+(add-to-list 'load-path custom-lisp)
+(add-to-list 'load-path vendor-lisp)
+
+;; Load my config
+(require 'setup-appearance)
+(require 'setup-ido)
+;;(require 'setup-evil)
+;;(require 'setup-deft)
+;;(require 'setup-org-mode)
+;;(require 'setup-yasnippets)
+(when on-windows
+  (require 'setup-windows))
