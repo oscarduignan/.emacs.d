@@ -3,8 +3,6 @@
       line-number-mode t
       ;; Display col in the mode line
       column-number-mode t
-      ;; Highligh matching parens
-      show-paren-mode t
       ;; Wider line spacing for improved readability
       line-spacing 3)
 
@@ -14,6 +12,10 @@
   (tool-bar-mode -1)
   (tooltip-mode -1)
   (blink-cursor-mode -1))
+
+;; Highlight matching and unmatched parens
+(show-paren-mode 1)
+(setq show-paren-delay 0)
 
 ;; Highlight current line
 (global-hl-line-mode 1)
