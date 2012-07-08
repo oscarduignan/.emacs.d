@@ -4,7 +4,7 @@
 
 To grab all the dependencies, either:
 
-    git git@github.com:oscarduignan/.emacs.d.git $HOME/.emacs.d
+    git clone git@github.com:oscarduignan/.emacs.d.git $HOME/.emacs.d
     cd $HOME/.emacs.d
     git submodule init
     git submodule update
@@ -12,6 +12,14 @@ To grab all the dependencies, either:
 or on git v1.6.5 or later:
 
     git clone --recursive git@github.com:oscarduignan/.emacs.d.git $HOME/.emacs.d
+
+## Fonts
+
+I use Liberation Mono at the moment, you'll get an error if you don't have it installed.
+
+Get it here, or update the call to `(set-default-font)` in `custom/setup-appearance.el`:
+
+http://www.dafont.com/liberation-mono.font
 
 ## Install emacs24
 
