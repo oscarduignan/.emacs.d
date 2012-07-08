@@ -1,0 +1,34 @@
+* Stuff to do with emacs still
+** install yasnippets
+*** write some coldfusion snippets
+** decide on projects plugin
+*** investigate find-file-in-project
+*** investigate eproject
+** find a plugin to let me visualise/navigate the file system like nerd tree
+** find a plugin/way to let me (un)comment stuff easily
+** setup sensible line wrapping
+** install deft
+*** migrate my documents to google drive from github
+    GoogleDrive/
+      BinaryVision/
+        AFO/
+	RAF/
+	RAF.rdp
+      Books/ (callibre)
+      Documents/
+        BucketList.org
+        Notes/ (deft)
+	MindMaps/ (free mind)
+** install org-mode
+*** learn more about it and setup a mini "stuff I need to know" section of the cheat sheet for emacs
+** try out the coldfusion file modes and see if any are acceptable
+** Further mirror my vim config to emacs
+*** having a buffer? edge around window with scrolling
+*** having an easy way to scroll a bit horizontally
+*** window movement, resizing, and navigation / buffer management
+*** further tweak # surround until I can "change inside #"
+*** look at how I can get org-mode line movement in other modes
+** Install ACK
+** Find out how to have a shell in emacs
+** Create a cheat sheet on emacs controls I need to learn or be able to reference quickly
+   Got to do this myself, not use someone elses, though I can reference someone elses, I'll print it off and keep it in a plastic wallet, one copy at home, one in my bag, and one at work!

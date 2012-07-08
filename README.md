@@ -21,6 +21,12 @@ Get it here, or update the call to `(set-default-font)` in `custom/setup-appeara
 
 http://www.dafont.com/liberation-mono.font
 
+## TODO
+
+This is still a work in progress, and I'm maintaining a list of what needs to be done here:
+
+https://github.com/oscarduignan/.emacs.d/blob/master/TODO.org
+
 ## Install emacs24
 
 ### Windows
