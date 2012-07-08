@@ -4,3 +4,12 @@
 [submodule "themes/emacs-color-theme-solarized"]
 	path = themes/emacs-color-theme-solarized
 	url = git://github.com/sellout/emacs-color-theme-solarized.git
+[submodule "vendor/evil-surround"]
+	path = vendor/evil-surround
+	url = git://github.com/timcharper/evil-surround.git
+[submodule "vendor/evil"]
+	path = vendor/evil
+	url = git://gitorious.org/evil/evil.git
+[submodule "vendor/evil-leader"]
+	path = vendor/evil-leader
+	url = git://github.com/cofi/evil-leader.git

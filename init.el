@@ -17,7 +17,7 @@
 ;; Explicitly load all my custom lisp
 (require 'setup-appearance)
 (require 'setup-ido)
-;;(require 'setup-evil)
+(require 'setup-evil)
 ;;(require 'setup-deft)
 ;;(require 'setup-org-mode)
 ;;(require 'setup-yasnippets)
