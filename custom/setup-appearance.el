@@ -14,7 +14,7 @@
 (set-default-font "Liberation Mono-13")
 
 ;; Load theme
-(add-to-list 'load-path (concat vendor-lisp 'emacs-color-theme-solarized))
+(add-to-list 'custom-theme-load-path (concat emacs-dir "themes/"))
 (load-theme 'solarized-dark t)
 
 (provide 'setup-appearance)

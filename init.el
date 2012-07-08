@@ -6,7 +6,7 @@
       custom-lisp (concat emacs-dir "custom/")
       vendor-lisp (concat emacs-dir "vendor/"))
 
-(add-to-list 'load-path custom-lisp)
+(add-to-list 'load-path custom-lisp)  
 (add-to-list 'load-path vendor-lisp)
 
 ;; Load my config
