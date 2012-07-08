@@ -9,7 +9,12 @@
 (add-to-list 'load-path custom-lisp)  
 (add-to-list 'load-path vendor-lisp)
 
-;; Load my config
+;; Implicitly add all folders in vendor/ to the load path
+(dolist (project (directory-files vendor-lisp t "\\w+"))
+  (when (file-directory-p project)
+    (add-to-list 'load-path project)))
+
+;; Explicitly load all my custom lisp
 (require 'setup-appearance)
 (require 'setup-ido)
 ;;(require 'setup-evil)
