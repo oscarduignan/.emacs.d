@@ -36,4 +36,7 @@
 ** Install ACK
 ** Find out how to have a shell in emacs
 ** Create a cheat sheet on emacs controls I need to learn or be able to reference quickly
-   Got to do this myself, not use someone elses, though I can reference someone elses, I'll print it off and keep it in a plastic wallet, one copy at home, one in my bag, and one at work!
+Got to do this myself, not use someone elses, though I can reference someone elses, I'll print it off and keep it in a plastic wallet, one copy at home, one in my bag, and one at work!
+** Get copy, paste, and redo working (in org-mode and in general)
+** investigate http://permalink.gmane.org/gmane.emacs.vim-emulation/1135
+** investigate cofi config and the emacsrocks one
