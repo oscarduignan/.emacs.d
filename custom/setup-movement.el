@@ -1,10 +1,11 @@
 ;; This some of this will be changed with evil
 
-;; Switch back and forth between two buffers
+;; Recreates the toggle buffer functionality
 (defun toggle-buffer ()
   (interactive)
   (setq next-toggle-buffer-function
-	(if (eq 'next-toggle-buffer-function 'previous-buffer)
+	(if (and (boundp 'next-toggle-buffer-function) 
+             (eq next-toggle-buffer-function 'previous-buffer))
 	    'next-buffer
 	  'previous-buffer))
   (funcall next-toggle-buffer-function))
