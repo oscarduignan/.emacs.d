@@ -18,8 +18,8 @@
 (require 'setup-appearance)
 (require 'setup-ido)
 (require 'setup-evil)
+(require 'setup-org-mode)
 ;;(require 'setup-deft)
-;;(require 'setup-org-mode)
 ;;(require 'setup-yasnippets)
 (when on-windows
   (require 'setup-windows))
