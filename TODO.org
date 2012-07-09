@@ -1,3 +1,4 @@
+#+STARTUP: indent
 * Stuff to do with emacs still
 ** install yasnippets
 *** write some coldfusion snippets
@@ -21,6 +22,10 @@
 	MindMaps/ (free mind)
 ** install org-mode
 *** learn more about it and setup a mini "stuff I need to know" section of the cheat sheet for emacs
+*** Setup a binding so that adding a new heading in normal mode also puts you into insert mode!
+** find and install a recent files plugin
+** investigate ediff and if it's any good
+** setup keybindings so that <left> and <right> switch buffers in normal mode!
 ** try out the coldfusion file modes and see if any are acceptable
 ** Further mirror my vim config to emacs
 *** having a buffer? edge around window with scrolling
