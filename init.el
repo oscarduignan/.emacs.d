@@ -19,6 +19,7 @@
 (require 'setup-ido)
 (require 'setup-evil)
 (require 'setup-org-mode)
+(require 'setup-movement)
 ;;(require 'setup-deft)
 ;;(require 'setup-yasnippets)
 (when on-windows
