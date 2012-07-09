@@ -8,6 +8,7 @@
 
 ;; Leader keybindings
 (evil-leader/set-key
-  "n" 'split-window-horizontally)
+  "n" 'split-window-horizontally
+  "," 'toggle-buffer)
 
 (provide 'setup-evil-leader)

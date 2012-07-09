@@ -1,5 +1,14 @@
 ;; This some of this will be changed with evil
 
+;; Switch back and forth between two buffers
+(defun toggle-buffer ()
+  (interactive)
+  (setq next-toggle-buffer-function
+	(if (eq 'next-toggle-buffer-function 'previous-buffer)
+	    'next-buffer
+	  'previous-buffer))
+  (funcall next-toggle-buffer-function))
+
 ;; Use the ctrl-direction to change window
 (global-set-key [C-left] 'windmove-left)
 (global-set-key [C-right] 'windmove-right)
