@@ -13,3 +13,6 @@
 [submodule "vendor/evil-leader"]
 	path = vendor/evil-leader
 	url = git://github.com/cofi/evil-leader.git
+[submodule "vendor/clojure-mode"]
+	path = vendor/clojure-mode
+	url = git://github.com/technomancy/clojure-mode.git

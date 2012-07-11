@@ -16,10 +16,12 @@
 
 ;; Explicitly load all my custom lisp
 (require 'setup-appearance)
+(require 'setup-behavior)
 (require 'setup-ido)
 (require 'setup-evil)
 (require 'setup-org-mode)
 (require 'setup-movement)
+(require 'setup-clojure-mode)
 ;;(require 'setup-deft)
 ;;(require 'setup-yasnippets)
 (when on-windows
