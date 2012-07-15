@@ -22,7 +22,7 @@
 (require 'setup-org-mode)
 (require 'setup-movement)
 (require 'setup-clojure-mode)
-;;(require 'setup-deft)
+(require 'setup-deft)
 ;;(require 'setup-yasnippets)
 (when on-windows
   (require 'setup-windows))
