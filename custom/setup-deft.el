@@ -5,4 +5,8 @@
       deft-extension "org"
       deft-directory "~/Dropbox/notes/"
       deft-text-mode 'org-mode)
-   (global-set-key (kbd "<f9>") 'deft))
+   (global-set-key (kbd "<f9>") 'deft)
+   (evil-set-initial-state 'deft-mode 'emacs))
+
+
+(provide 'setup-deft)
