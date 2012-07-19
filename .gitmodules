@@ -19,3 +19,6 @@
 [submodule "vendor/deft"]
 	path = vendor/deft
 	url = git://jblevins.org/git/deft.git
+[submodule "vendor/eproject"]
+	path = vendor/eproject
+	url = git://github.com/jrockway/eproject.git

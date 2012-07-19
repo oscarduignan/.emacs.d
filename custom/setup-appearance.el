@@ -24,6 +24,9 @@
 ;; Set font
 (set-default-font "Liberation Mono-13")
 
+;; By default avoid truncating lines
+(setq-default truncate-lines nil)
+
 ;; Load theme
 (add-to-list 'custom-theme-load-path (concat emacs-dir "themes/emacs-color-theme-solarized"))
 (load-theme 'solarized-dark t)

@@ -24,7 +24,8 @@
 (require 'setup-clojure-mode)
 (require 'setup-deft)
 (require 'setup-nav)
-
+(require 'setup-eproject)
 ;;(require 'setup-yasnippets)
+
 (when on-windows
   (require 'setup-windows))

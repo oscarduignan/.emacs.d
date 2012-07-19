@@ -16,4 +16,6 @@
 (global-set-key [C-up] 'windmove-up)
 (global-set-key [C-down] 'windmove-down)
 
+; todo allow ctrl + (h j k l) to move between windows
+
 (provide 'setup-movement)
